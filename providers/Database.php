@@ -5,11 +5,11 @@
 	class Database extends PDO
 	{	
 		private $driver = 'mysql';
-		private $host = 'localhost';	
-		private $dbName = 'si_votingo';
+		private $host = 'lyn7gfxo996yjjco.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';	
+		private $dbName = 'gs6oji14v18wtsdf';
 		private $charset = 'utf8';
-		private $user = 'root';
-		private $password = '';
+		private $user = 'wxfjvnb7yn4n36yt';
+		private $password = 'u9kldqpkhvh1qihy';
 
 		// sobre carga al constructor con cadena de conexión a la BD.
 		public function __construct()
