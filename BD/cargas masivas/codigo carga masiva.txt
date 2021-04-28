@@ -1,0 +1,31 @@
+load data infile 'C:\\Users\\PC\\Downloads\\Carga masiva TypeStatuses.csv'
+into table type_statuses
+fields terminated by ','
+optionally enclosed by '"'
+lines terminated by '\r\n';
+
+load data infile 'C:\\Users\\PC\\Downloads\\Carga masiva Statuses.csv'
+into table statuses
+fields terminated by ','
+optionally enclosed by '"'
+lines terminated by '\r\n';
+
+
+load data infile 'C:\\Users\\PC\\Downloads\\cargamasiva-usuario.csv'
+into table users
+fields terminated by ','
+optionally enclosed by '"'
+lines terminated by '\r\n';
+
+load data infile 'C:\\Users\\PC\\Downloads\\cargamasiva-usurol.csv'
+into table usurol
+fields terminated by ','
+optionally enclosed by '"'
+lines terminated by '\r\n';
+
+load data infile 'C:\\Users\\PC\\Downloads\\Carga Masiva Grado.csv'
+into table grades
+fields terminated by ','
+optionally enclosed by '"'
+lines terminated by '\r\n';
+

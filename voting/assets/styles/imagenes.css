@@ -1,0 +1,31 @@
+.tamañocentral{
+    margin-top:16%;
+    width: 500px;
+    height: 500px;
+}
+.imagentwo{
+    position: absolute;
+    width: 600px;
+    margin:0px 20px 20px -100px;
+}
+.imageneslogin
+{
+	position: absolute;
+    margin-left:15%;
+    margin-top: -15%;
+    opacity:.10;
+    width: 320px;
+    height: 300px;
+}
+@media only screen and (max-width: 760px)
+{
+	.imageneslogin
+{
+	position: absolute;
+    margin-left:4%;
+    margin-top: -6%;
+    opacity:.10;
+    width: 280px;
+    height: 240px;
+}
+}

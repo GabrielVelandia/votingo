@@ -1,0 +1,10 @@
+<ul><strong>Selecciona un candidato</strong>
+					<?php 
+																				foreach ($opciones as $op) {
+																					?>
+		<li onclick="votar(<?php echo $op['id']?>);"><?php echo $op['candidate'];?><br><?php echo $op['code'];?></li>
+												<?php
+																					}
+																					?>
+																	</ul>	
+																	<div id="rpt_votos">aqui</div>

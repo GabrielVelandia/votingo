@@ -1,0 +1,44 @@
+.logo-name {
+	color: #3E4AB2;
+	
+}
+.color1 {
+	margin-right: 10px;
+	color: #e84c3d;
+	font-size: 20px;
+}
+.color1:hover {
+	margin-right: 10px;
+	color: #e84c3d;
+	font-size: 20px;
+}
+.color11{
+	margin-right: 10px;
+	color: #3E4AB2;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
+.color11:hover{
+	margin-right: 10px;
+	color: #e84c3d;
+	font-size: 20px;
+}
+a .btn-dark:hover{
+	color: #fff;
+}
+
+th{
+	text-align: center;
+}
+
+td{
+	text-align: center;
+}
+.color {
+	color:#515151;	
+	transition: 0.8s;
+}
+.color:hover{
+	color: #e84c3d;
+}
